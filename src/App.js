@@ -6,7 +6,8 @@ export default function App() {
     <Wrapper>
       <Spline
         className="spline"
-        scene="https://prod.spline.design/JJxGpE4NMv20H8JA/scene.splinecode"
+        scene="https://prod.spline.design/JJxGpE4NMv20H8JA/scene.splinecode" />
+
       />
       <Content>
         <h1> Hi, my name is Fauve</h1>
@@ -26,6 +27,10 @@ const Wrapper = styled.div.attrs({ className: "spline" })`
   font-size: 16px;
   color: white;
   position: relative;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 
   .spline {
     position: absolute;
