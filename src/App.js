@@ -20,8 +20,9 @@ export default function App() {
   );
 }
 
-const Wrapper = styled.div.attrs({ className: "df" })`
+const Wrapper = styled.div.attrs({ className: "spline" })`
   font-family: "Noto Serif", serif;
+  font-weight: 700;
   font-size: 16px;
   color: white;
   position: relative;
@@ -34,4 +35,23 @@ const Wrapper = styled.div.attrs({ className: "df" })`
   }
 `;
 
-const Content = styled.div;
+const Content = styled.div.attrs({ className: "spline" })`
+  position: absolute;
+  top: 30px;
+
+  .h1 {
+    font-family: "Noto Serif", serif;
+    font-size: 70px;
+    margin: 0;
+    max-width: 500px;
+  }
+  .p {
+    font-weight: normal;
+    line-height: 150%;
+  }
+
+  h1,
+  p {
+    margin: 0 30px 100px;
+  }
+`;
