@@ -42,16 +42,18 @@ const Content = styled.div.attrs({ className: "spline" })`
   .h1 {
     font-family: "Noto Serif", serif;
     font-size: 70px;
+    font-weight: bold;
     margin: 0;
     max-width: 500px;
   }
   .p {
     font-weight: normal;
     line-height: 150%;
+    max-width: 300px;
   }
 
   h1,
   p {
-    margin: 0 30px 100px;
+    margin: 0 30px 0 100px;
   }
 `;
