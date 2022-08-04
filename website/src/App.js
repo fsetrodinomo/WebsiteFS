@@ -1,12 +1,12 @@
-// import Spline from '@splinetool/react-spline'
+import Spline from '@splinetool/react-spline'
 import './App.css';
 
 function App() {
   return (
     <wrapper>
-    {/* <Spline className="spline"  scene="https://prod.spline.design/pvf6hijCgDmfoVUT/scene.splinecode" /> */}
+    <Spline  scene="https://prod.spline.design/pvf6hijCgDmfoVUT/scene.splinecode"/>
     <content>
-    <h1> Hi, my name is Fauve</h1>
+    
         <p align="center">
           I am a junior developer
            and in my spare time I like to discover new
@@ -15,8 +15,8 @@ function App() {
         </p>
 
     </content>
-    
     </wrapper>
+    
   );
 }
 
