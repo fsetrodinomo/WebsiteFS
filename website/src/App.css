@@ -1,0 +1,23 @@
+/* .spline {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  right: 0;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.wrapper{
+  font-size: 16px;
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  position: absolute;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
