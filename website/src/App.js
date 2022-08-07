@@ -1,6 +1,6 @@
 // import Spline from '@splinetool/react-spline'
 import './App.css';
-import {Navbar} from './Components/Navbar';
+import { Navbar } from "./components/NavBar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { MDBIcon } from 'mdb-react-ui-kit';
 
