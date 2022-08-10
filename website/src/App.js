@@ -1,6 +1,6 @@
 // import Spline from '@splinetool/react-spline'
 import './App.css';
-import { Navbar } from "./components/NavBar";
+import { NavBar } from "./Components/NavBar.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { MDBIcon } from 'mdb-react-ui-kit';
 
@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className='App'>
-      <Navbar />
+      <NavBar />
     </div>
     // <div className="wrapper">
     //   <Spline scene="https://prod.spline.design/pvf6hijCgDmfoVUT/scene.splinecode" />
