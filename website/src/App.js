@@ -2,7 +2,6 @@
 import './App.css';
 import { NavBar } from "./Components/NavBar.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { MDBIcon } from 'mdb-react-ui-kit';
 
 
 function App() {
@@ -10,22 +9,6 @@ function App() {
     <div className='App'>
       <NavBar />
     </div>
-    // <div className="wrapper">
-    //   <Spline scene="https://prod.spline.design/pvf6hijCgDmfoVUT/scene.splinecode" />
-    //   <div classNames="content">
-    //     <h1>Hi guys, my name is Fauve</h1>
-    //     <p align="center">
-    //       I am a junior developer
-    //       and in my spare time I like to discover new
-    //       languages and new tools. Feel free to ask Marcus for some wisdom. He
-    //       is always willing to share some wisdom
-    //       <MDBIcon fas icon="chart-line" />
-    //     <MDBIcon far icon="check-square" />
-    //     <MDBIcon far icon="address-card" />
-    //     </p>
-       
-    //   </div>
-    // </div>
   );
 }
 
