@@ -2,7 +2,9 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <div classname="home"></div>
+    <div classname="home">
+      <Header/>
+    </div>
   )
 }
 
