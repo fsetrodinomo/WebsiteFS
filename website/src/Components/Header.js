@@ -1,43 +1,42 @@
-import React ,{useState} from 'react'
+import React, { useState } from 'react'
 import './Header.css'
-import {IoIosHome,IoIosContact,IoLogoGithub,IoIosConstruct,IoFolderOutline,} from 'react-icons/io5'
+import {IoMdMenu,IoMdClose, IoIosHome, IoIosContact, IoLogoGithub, IoIosConstruct, IoFolderOutline } from 'react-icons/io'
 
-import { useState } from 'react'
+
 
 const Header = () => {
-  return (
-    <div className='header'>
-        <nav>
-            <ul className='ul-item'>
-                <li>
-                   <IoMdImage/>
-                   <Link to ='/'>Alumni</Link>
-                </li>   
-                <li>
-                   <IoMdImage/>
-                   <Link to ='/'>Alumni</Link>
-                </li>
-                <li>
-                   <IoMdImage/>
-                   <Link to ='/'>Alumni</Link>
-                </li>
-                <li>
-                   <IoMdImage/>
-                   <Link to ='/'>Alumni</Link>
-                </li>
-                <li>
-                   <IoMdImage/>
-                   <Link to ='/'>Alumni</Link>
-                </li>
-                <li>
-                   <IoMdImage/>
-                   <Link to ='/'>Alumni</Link>
-                </li>
+   const [active, setActive] = useState(false)
+   const activateNav = () => {
+      setActive(!active)
+   }
 
+   return (
+      <div className={active ? 'header' : 'header-mobile'}>
+         <div className='menu-icon' onClick={activateNav}>
+            {!active ? <IoMdMenu className='menu'/> : <IoMdClose className='menu'/>  }
+         </div>
+         <nav>
+            <ul className={active ? 'ul-item' : 'ul-item oicon'}>
+               <li>
+                  <IoIosHome className='icon' />
+                  {/* <Link to ='/'>Alumni</Link> */}
+               </li>
+               <li>
+                  <IoIosContact  className='icon' />
+                  {/* <Link to='/'>Alumni</Link> */}
+               </li>
+               <li>
+                  <IoLogoGithub  className='icon'/>
+                  {/* <Link to='/'>Alumni</Link> */}
+               </li>
+               <li>
+                  <IoIosConstruct  className='icon' />
+                  {/* <Link to='/'>Alumni</Link> */}
+               </li>
             </ul>
-        </nav>
-    </div>
-  )
+         </nav>
+      </div>
+   )
 }
 
 export default Header
