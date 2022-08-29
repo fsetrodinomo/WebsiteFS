@@ -38,9 +38,9 @@ nav .ul-item.oicon li::after{
 nav .ul-item li {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     cursor: pointer;
-    padding-block: 1.2rem;
+    padding-block: 0.75rem;
     margin-block: .1rem;
 }
 
@@ -51,7 +51,7 @@ nav .ul-item li:hover{
 nav .ul-item li .icon {
     color: rgb(0, 255,145);
     margin-inline: 1rem;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 nav .ul-item li a {
