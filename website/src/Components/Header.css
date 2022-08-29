@@ -45,7 +45,7 @@ nav .ul-item li {
 }
 
 nav .ul-item li:hover{
-    background-color: rgba(66,81,52);
+    background-color: rgb(205, 206, 204);
 }
 
 nav .ul-item li .icon {
@@ -71,4 +71,30 @@ nav .ul-item li a {
     margin-block: 1rem;
     cursor: pointer;
     font-size: 30px;
+}
+
+nav .ul-item li:hover{
+    transition: 3s ease;
+}
+
+@media(max-width:900px){
+    .header-mobile{
+        inset: 0 90% 0 0;
+        justify-content: center;
+    }
+    nav .ul-item {
+        display: none;
+    }
+    nav .ul-item.oicon {
+        display: flex;
+    }
+    .menu-icon{
+        color: rgb(0, 255,145);
+        margin-inline: 1rem;
+        font-size: 30px;
+    }
+    
+    nav .ul-item li .icon{
+        font-size: clamp(1rem,2vw + 1rem, 4rem);
+    }
 }

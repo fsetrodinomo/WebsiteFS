@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Header.css'
-import {IoMdMenu,IoMdClose, IoIosHome, IoIosContact, IoLogoGithub, IoIosConstruct, IoFolderOutline } from 'react-icons/io'
-
+import {IoMdMenu,IoMdClose, IoIosHome, IoIosContact, IoLogoGithub, IoIosConstruct, IoMdBook } from 'react-icons/io'
+import {NavLink} from "react-router-dom";
 
 
 const Header = () => {
@@ -19,19 +19,11 @@ const Header = () => {
             <ul className={active ? 'ul-item' : 'ul-item oicon'}>
                <li>
                   <IoIosHome className='icon' />
-                  {/* <Link to ='/'>Alumni</Link> */}
+                  <NavLink to ='/home' exact>Home</NavLink>
                </li>
                <li>
                   <IoIosContact  className='icon' />
-                  {/* <Link to='/'>Alumni</Link> */}
-               </li>
-               <li>
-                  <IoLogoGithub  className='icon'/>
-                  {/* <Link to='/'>Alumni</Link> */}
-               </li>
-               <li>
-                  <IoIosConstruct  className='icon' />
-                  {/* <Link to='/'>Alumni</Link> */}
+                  <NavLink to='/aboutme' exact>About me</NavLink>
                </li>
             </ul>
          </nav>
