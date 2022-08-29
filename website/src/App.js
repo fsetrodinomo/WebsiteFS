@@ -1,15 +1,13 @@
-// import Spline from '@splinetool/react-spline'
 import './App.css';
-import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Home/>}>
-
-        </Route>
+        <Route path='/' element={<Home/>}></Route>
       </Routes>
     </Router>
   );

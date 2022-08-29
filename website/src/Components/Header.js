@@ -1,24 +1,43 @@
-import React from 'react'
+import React ,{useState} from 'react'
 import './Header.css'
-//home
-import { AiOutlineHome, IoColorFill } from "react-icons/io5";
-//about me
-import { BsFillPersonLinesFill } from "react-icons/io5";
-//projects
-import { BsFillPersonLinesFill } from "react-icons/io5";
-//tools
-import { GoTools } from "react-icons/io5";
+import {IoIosHome,IoIosContact,IoLogoGithub,IoIosConstruct,IoFolderOutline,} from 'react-icons/io5'
 
+import { useState } from 'react'
 
 const Header = () => {
   return (
     <div className='header'>
-      <nav>
-        <li>
-          <AiOutlineHome style={{color:'white'}}/>
-        
-        </li>
-      </nav>
+        <nav>
+            <ul className='ul-item'>
+                <li>
+                   <IoMdImage/>
+                   <Link to ='/'>Alumni</Link>
+                </li>   
+                <li>
+                   <IoMdImage/>
+                   <Link to ='/'>Alumni</Link>
+                </li>
+                <li>
+                   <IoMdImage/>
+                   <Link to ='/'>Alumni</Link>
+                </li>
+                <li>
+                   <IoMdImage/>
+                   <Link to ='/'>Alumni</Link>
+                </li>
+                <li>
+                   <IoMdImage/>
+                   <Link to ='/'>Alumni</Link>
+                </li>
+                <li>
+                   <IoMdImage/>
+                   <Link to ='/'>Alumni</Link>
+                </li>
+
+            </ul>
+        </nav>
     </div>
   )
 }
+
+export default Header
