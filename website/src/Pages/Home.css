@@ -3,7 +3,17 @@
     height: 100vh;
     background-color:black;
 }
+
+.home .cover{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0.2rem;
+    text-align: center;
+}
+
 /* 
+
 .aboutme{
     padding-left: 35rem;
     overflow-x: hidden;

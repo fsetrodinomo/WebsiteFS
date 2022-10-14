@@ -32,7 +32,7 @@ const Header = () => {
                </li>
                <li>
                   <IoIosConstruct  className='icon' />
-                  <NavLink to='/tools' exact>Tools</NavLink>
+                  <NavLink to='/Project' exact>Project</NavLink>
                </li>
                
             </ul>

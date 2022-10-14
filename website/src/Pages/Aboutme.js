@@ -13,8 +13,8 @@ const Aboutme = () => {
                 <div className='wrapper'>
                     <div className="words">
                         <span>Coder.</span>
-                        <span>Reader.</span>
                         <span>Stoic.</span>
+                        <span>Introvert.</span>
                     </div>
                 </div>
                     <div class="row">

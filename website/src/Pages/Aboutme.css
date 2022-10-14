@@ -29,24 +29,22 @@ span{
     display: block;
     height: 100%;
     padding-left: 80px;
-    animation: spin_words 7s infinite;
+    animation: spin_words 12s infinite;
 }
 
 @keyframes spin_words{
-    10%{
-        transform: translateY(-200%);
+    25%{
+        transform: translateY(-20%);
     }
-    20%{
-        transform: translateY(-200%);
-    }
-    30%{
-        transform: translateY(-200%);
-    }
-    10%{
+    50%{
         transform: translateY(-100%);
     }
-    
-
+    75%{
+        transform: translateY(-200%);
+    }
+    100%{
+        transform: translateY(-300%);
+    }
 } 
 
 

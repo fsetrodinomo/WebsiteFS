@@ -4,18 +4,51 @@
     background-color: black;
 }
 
-/* .Wrapper {
-    font-family: "Spline Sans", sans-serif;
-    font-size: 16px;
-    position: relative;
-    height: 100%;
-    overflow-x: hidden;
-   }
-   
-   .Wrapper .spline {
-      position: absolute;
-      margin: 0;
-      top: 0;
-      right: 0;
-    }
-    */
+ section{
+    min-height: 60vh;
+    padding: 2rem;
+    text-align: right;
+}
+
+.button  .gitlogo{
+    border-radius: 5rem;
+    height: 120px;
+    width: 0vh;
+}
+
+.gitlogo{ 
+    height: 60px;
+    width: 100vh;
+    color: black; 
+}
+
+
+
+.wrapper{
+    box-sizing: content-box;
+    background-color: black;
+    height: 30px;
+    padding: 5px 5px;
+    display: flex;
+    border-radius: 2px;
+    box-shadow: 0 20px 25px (0,0,0,0.2);
+}
+
+.description{   
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 9rem;
+    text-align: center;
+}
+
+.description p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-indent: 3em;
+    color: #fff; 
+    display: flex;
+    text-align: left;
+    grid-column: 1 / 8;
+} 
