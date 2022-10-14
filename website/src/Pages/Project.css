@@ -18,7 +18,7 @@
 
 .project .columnProgress{
     float: center;
-    padding: 0 10px;
+    padding: 0 3px;
     color:rgb(0, 255,145)
 }
 
@@ -27,7 +27,7 @@
 .project .columnProgress button{ 
     background-color: #fff;
     color: rgb(3, 0, 0);
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -43,7 +43,7 @@
     color: #fff; 
     display: flex;
     text-align: left;
-    grid-column: 1 / 8;
+    grid-column: 7/ 8;
 } 
 
 .project .columnProgress .gitlogo{ 

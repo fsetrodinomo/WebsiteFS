@@ -21,19 +21,16 @@ const Header = () => {
                   <IoIosHome className='icon' />
                   <NavLink to ='/' exact>Home</NavLink>
                </li>
-               
                <li>
                   <IoIosContact  className='icon'/>
                   <NavLink to='/aboutme' exact>About me</NavLink>
                </li>
-               <li>
-                  <IoLogoGithub  className='icon'/>
-                  <NavLink to='/code' exact>Code</NavLink>
-               </li>
+              
                <li>
                   <IoIosConstruct  className='icon' />
-                  <NavLink to='/Project' exact>Project</NavLink>
+                  <NavLink to='/project' exact>Projects</NavLink>
                </li>
+               
                
             </ul>
          </nav>
