@@ -14,7 +14,7 @@ const Project  = () => {
       <div className='card'>
       This project is my first project in React.
       While searching for the ideal language to develop my website in I discovered
-      React. While building this project I taught alot about 
+      React. While building this project I taught a lot about 
       routing and implement a 3D model.
       The loading time is still a issue I am working on.
       Feel free to ask about the 3D model.
@@ -49,7 +49,7 @@ const Project  = () => {
       
 
             <button>
-          <a href="https://github.com/fsetrodinomo/"> <IoLogoGithub className='gitlogo'  /></a>
+          <a href="https://github.com/fsetrodinomo/" target="_blank"> <IoLogoGithub className='gitlogo'  /></a>
         </button>                   
               </p>
               </div>
