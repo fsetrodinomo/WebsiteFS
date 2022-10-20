@@ -69,23 +69,3 @@ span{
     grid-column: 1 / 8;
 } 
 
-
-/* Large desktop */
-@media (min-width: 1200px) { 
-    /* your code */
-   }
-   
-   /* Portrait tablet to landscape and desktop */
-   @media (min-width: 768px) and (max-width: 979px) { 
-   /* your code */
-    }
-   
-   /* Landscape phone to portrait tablet */
-   @media (max-width: 767px) { 
-   /* your code */
-    }
-   
-   /* Landscape phones and down */
-   @media (max-width: 480px) { 
-   /* your code */
-    }
