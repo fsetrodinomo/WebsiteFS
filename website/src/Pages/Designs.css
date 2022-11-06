@@ -16,17 +16,17 @@ section{
     padding: 5px;
 }
 .personal{
-    padding-bottom: 24px;
-    font-size: 50px;
+    padding-bottom: 54px;
+    font-size: 7px;
     display: flex;
     justify-content: center;
     flex-flow: column;
-    padding: 9rem;
+    padding: 5.5rem;
     text-align: center;
 }
 
 .personal p{
-    font-size: 18px;
+    font-size:20px;
     padding-bottom: 20px;
     text-indent: 3em;
     color: #fff;
@@ -35,3 +35,15 @@ section{
     grid-column: 1 / 8;
 } 
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
