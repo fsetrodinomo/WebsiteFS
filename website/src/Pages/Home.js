@@ -7,11 +7,10 @@ const Home = () => {
     <div className='home'>
       <Header/>
       <div className='cover'>
-      <img src={Marucs} alt=""/>
+      <img src={Marucs} alt="" width="1200px" height="600px"/>
       </div>
   </div>
   )
 }
-
 
 export default Home
