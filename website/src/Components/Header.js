@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {NavLink} from 'react-router-dom';
 import './Header.css';
-import {IoMdMenu,IoMdClose, IoIosHome, IoIosContact, IoIosConstruct } from 'react-icons/io'
+import {IoMdMenu,IoMdClose, IoIosHome, IoIosContact, IoIosConstruct, IoIosColorPalette } from 'react-icons/io'
 
 
 const Header = () => {
@@ -28,6 +28,10 @@ const Header = () => {
                <li>
                   <IoIosConstruct  className='icon' />
                   <NavLink to='/project' exact>Projects</NavLink>
+               </li>
+               <li>
+                  <IoIosColorPalette className='icon' />
+                  <NavLink to='/designs' exact>Designs</NavLink>
                </li>
             </ul>
          </nav>
