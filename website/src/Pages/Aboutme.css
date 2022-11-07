@@ -4,7 +4,7 @@
     background-color:black;
 }
 
- section{
+section{
     min-height: 100vh;
     padding: 4rem;
     text-align: right;
@@ -48,8 +48,6 @@ span{
     }
 } 
 
-
-
 .personal{
     padding-bottom: 24px;
     font-size: 50px;
@@ -68,4 +66,4 @@ span{
     display: flex;
     text-align: left;
     grid-column: 1 / 8;
-} 
+}
