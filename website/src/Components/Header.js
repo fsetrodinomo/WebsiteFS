@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './Header.css';
 import {IoMdMenu,IoMdClose, IoIosHome, IoIosContact, IoIosConstruct, IoIosColorPalette } from 'react-icons/io'
 
@@ -19,20 +19,20 @@ const Header = () => {
             <ul className={active ? 'ul-item' : 'ul-item oicon'}>
                <li>
                   <IoIosHome className='icon' />
-                  <NavLink to ='/' exact>Home</NavLink>
+                  <Link to ='/' exact>Home</Link>
                </li>
                <li>
                   <IoIosContact  className='icon'/>
-                  <NavLink to='/aboutme' exact>About me</NavLink>
+                  <Link to='/aboutme' exact>About me</Link>
                </li>              
                <li>
                   <IoIosConstruct  className='icon' />
-                  <NavLink to='/project' exact>Projects</NavLink>
+                  <Link to='/project' exact>Projects</Link>
                </li>
-               <li>
+               {/* <li>
                   <IoIosColorPalette className='icon' />
-                  <NavLink to='/designs' exact>Designs</NavLink>
-               </li>
+                  <Link to='/designs' exact>Designs</Link>
+               </li> */}
             </ul>
          </nav>
       </div>
