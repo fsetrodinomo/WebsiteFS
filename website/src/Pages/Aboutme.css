@@ -23,6 +23,7 @@
 
 .words{
     overflow: hidden;
+    font-size: 50px;
 }
 
 span{
@@ -68,4 +69,3 @@ span{
     text-align: left;
     grid-column: 1 / 8;
 } 
-
