@@ -29,11 +29,12 @@ const Aboutme = () => {
                             </h3>
                           
                          <p>
-                            <i></i>
+                            <i>
                          Well uhhmm .. about myself?
                             In my spare time I like to read, take a hike in nature and
                             probarbly spend way too much time laughing at bad jokes.
                             And playing Pokemon Sun while I could improve this website.
+                            </i>
                          </p>
 
                            
