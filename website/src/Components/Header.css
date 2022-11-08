@@ -98,17 +98,20 @@ nav .ul-item li {
         align-items: center;
         gap: 1rem;
         cursor: pointer;
-        padding-block: 0.75rem;
+ 
         margin-block: .1rem;
+        width: 7vh;
     }
 
     .header-mobile .ul-item li:hover {
         background-color: rgb(205, 206, 204);
+        width: 8vh;
 
     }
 
     .ul-item li:hover {
         background-color: rgb(205, 206, 204);
+        width: 8vh;
     }
 }
 
