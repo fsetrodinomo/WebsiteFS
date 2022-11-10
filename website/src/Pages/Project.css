@@ -96,3 +96,105 @@
     display: table;
     clear: both;
 }
+
+@media only screen and (min-device-width : 320px) {
+    .project{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        padding: 2.5rem;
+        text-align: center;
+    }
+    
+    .project .column{
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }
+    
+    
+    .project .columnProgress{
+        float: center;
+        padding: 0 10px;
+        color:rgb(0, 255,145)
+    }
+    
+    .project .columnProgress button{ 
+        background-color: #fff;
+        color: rgb(3, 0, 0);
+        padding: 2%;
+        font-size: 14px;
+        border-radius: 2rem;
+        align-content: center;
+    }
+    
+    .project .columnProgress .cardProgress{ 
+        font-size: 18px;
+        padding-bottom: 20px;
+        text-indent: 3em;
+        color: #fff; 
+        display: flex;
+        text-align: left;
+        grid-column: 1 / 8;
+    } 
+    
+    .project .columnProgress .gitlogo{ 
+        height: 26px;
+        width: 178px;
+        color: black; 
+    } 
+    
+    .project .columnProgress .gitlogo button{
+            background-color: white;
+            color: rgb(3, 0, 0);
+            font-size: 20px;
+            border-radius: 1rem;
+    }
+    
+    .project .columnProgress .gitlogo p{
+        font-size: 18px;
+        text-indent: 2em;
+        color: #fff; 
+        display: flex;
+        text-align: left;
+         
+    }
+    
+    .project .column button{ 
+            background-color:rgb(0, 255,145);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 10px;
+            border-radius: 2rem;
+            align-content: center;
+    }
+    
+    .project .column .h1{
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+        color: rgb(0, 255,145);
+    }
+    
+    
+    .project .row {
+        justify-content: center;
+        flex-flow: column;
+        padding: 9rem;
+        text-align: center;
+        margin: 0 -5px;
+        color: white;
+    }
+    
+    .project .row .row:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+}
